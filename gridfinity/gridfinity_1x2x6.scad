@@ -53,7 +53,7 @@ enable_lip = true;
 // determine what the variable "gridz" applies to based on your use case
 gridz_define = 0; // [0:gridz is the height of bins in units of 7mm increments - Zack's method,1:gridz is the internal height in millimeters, 2:gridz is the overall external height of the bin in millimeters]
 // the type of tabs
-style_tab = 0; //[0:Full,1:Auto,2:Left,3:Center,4:Right,5:None]
+style_tab = 5; //[0:Full,1:Auto,2:Left,3:Center,4:Right,5:None]
 
 // overrides internal block height of bin (for solid containers). Leave zero for default height. Units: mm
 height_internal = 0;
